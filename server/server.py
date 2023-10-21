@@ -14,6 +14,5 @@ def return_home():
         'people': ['Fariha', 'Irene', 'Isyhara', 'Jenna']
     })
 
-
 if __name__ == "__main__":
     app.run(debug=True, port=8080)
