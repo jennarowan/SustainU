@@ -4,20 +4,20 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../images/logo.png";
 function index() {
-  const [message, setMessage] = useState("Loading");
-  const [people, setPeople] = useState([]);
+//   const [message, setMessage] = useState("Loading");
+//   const [people, setPeople] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:8080/api/home")
-      .then((response) => response.json())
-      .then((data) => {
-        // message = 'Loading'
-        // once data is retrieved
-        // message = data.message
-        setMessage(data.message);
-        setPeople(data.people);
-      });
-  }, []);
+//   useEffect(() => {
+//     fetch("http://localhost:8080/api/home")
+//       .then((response) => response.json())
+//       .then((data) => {
+//         // message = 'Loading'
+//         // once data is retrieved
+//         // message = data.message
+//         setMessage(data.message);
+//         setPeople(data.people);
+//       });
+//   }, []);
 
   return (
     <div className="bg-[url('../images/landing-background.png')] bg-cover bg-center h-screen">
