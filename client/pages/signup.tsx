@@ -25,6 +25,16 @@ export default function signup() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form Data:", formData);
+
+    // Send form data to Flask backend for registration
+    fetch("http://localhost:8080/api/register", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    }).then((response) => {
+      console.log("response", response);
+    });
+
     router.push("/survey");
   };
 
