@@ -77,13 +77,6 @@ export default function WithAction() {
                 42
               </Text>
             </Flex>
-
-            <Flex alignItems="center" mr={2}>
-              <StarIcon boxSize={4} color="white" />
-              <Text fontSize="sm" fontWeight="bold" ml={1}>
-                42
-              </Text>
-            </Flex>
             <Avatar
               size="sm"
               src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=b616b2c5b373a80ffc9636ba24f7a4a9"

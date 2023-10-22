@@ -1,0 +1,11 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="shopping-bag">
+<path id="Vector" d="M3.75005 7.50049L7.50005 2.50049H22.5L26.25 7.50049M3.75005 7.50049V25.0005C3.75005 25.6635 4.01344 26.2994 4.48228 26.7683C4.95112 27.2371 5.587 27.5005 6.25005 27.5005H23.75C24.4131 27.5005 25.049 27.2371 25.5178 26.7683C25.9867 26.2994 26.25 25.6635 26.25 25.0005V7.50049M3.75005 7.50049H26.25M20 12.5005C20 13.8266 19.4733 15.0983 18.5356 16.036C17.5979 16.9737 16.3261 17.5005 15 17.5005C13.674 17.5005 12.4022 16.9737 11.4645 16.036C10.5268 15.0983 10 13.8266 10 12.5005" stroke="url(#paint0_linear_54_4422)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_54_4422" x1="3.75005" y1="2.50049" x2="28.6119" y2="24.8762" gradientUnits="userSpaceOnUse">
+<stop stop-color="#024636"/>
+<stop offset="1" stop-color="#7FA26A"/>
+</linearGradient>
+</defs>
+</svg>
