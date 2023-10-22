@@ -39,8 +39,6 @@ export default function WithAction() {
 
   return (
     <>
-      <Link href="/signup"></Link>
-      <Link href="/signup"></Link>
       <Box
         bg={useColorModeValue("#024636", "#FFFFFF")}
         fontWeight="bold"

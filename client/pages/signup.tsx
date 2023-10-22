@@ -22,10 +22,8 @@ export default function Signup() {
   };
 
   return (
-    <Layout>
-      <div>
-        <p>sign up</p>
-      </div>
-    </Layout>
+    <div>
+      <p>sign up</p>
+    </div>
   );
 }
