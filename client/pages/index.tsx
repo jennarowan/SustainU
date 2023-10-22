@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Button from "../components/Button/Button";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../images/logo.png";
 function index() {
   const [message, setMessage] = useState("Loading");
   const [people, setPeople] = useState([]);
@@ -18,8 +20,9 @@ function index() {
   }, []);
 
   return (
-    <div className="bg-[url('../images/landing-background.jpg')] bg-cover bg-center h-screen">
-      <div className="h-screen flex flex-col items-center justify-center pt-20">
+    <div className="bg-[url('../images/landing-background.png')] bg-cover bg-center h-screen">
+      <div className="h-screen flex flex-col items-center justify-center ">
+        <Image src={logo} alt="logo" />
         <h1 className="text-6xl font-bold mb-4 text-white">SustainU</h1>
         <p className="text-3xl text-[#D7E5BE] drop-shadow-md mb-4 text-center">
           Every choice counts for a sustainable future

@@ -7,6 +7,7 @@ import zap from "../images/zap.svg";
 import chart from "../images/chart.png";
 import Button from "../components/Button/Button";
 import bottle from "../images/bottle.png";
+import Link from "next/link";
 const home = () => {
   return (
     <Layout>
@@ -32,7 +33,9 @@ const home = () => {
             </h1>
 
             <div className="flex flex-row items-center justify-end gap-3">
-              <Button text="Start" colorClass="bg-[#38A169]" />
+              <Link href="/tasks">
+                <Button text="Start" colorClass="bg-[#38A169]" />
+              </Link>
             </div>
           </div>
 

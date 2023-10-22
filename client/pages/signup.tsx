@@ -29,9 +29,9 @@ export default function signup() {
   };
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center pt-20 ">
+    <div className="h-screen flex flex-col items-center justify-center pt-20 bg-[#DCE2D6]">
       <div className="border border-solid border-black bg-gradient-1 flex flex-col items-center justify-center p-8 rounded-lg w-[35%] h-[55vh]">
-        <h1 className="text-4xl font-bold mb-8 text-white mt-8 uppercase">
+        <h1 className="text-4xl font-bold mb-8 text-white  uppercase">
           Register
         </h1>
         <form onSubmit={handleSubmit}>
@@ -66,7 +66,10 @@ export default function signup() {
             <Button text="Let's go!" colorClass="bg-[#024636]" />
           </div>
           <h2 className="mt-2 text-white">
-            Already have an account? <Link href="/signin" className="underline">Sign in!</Link>
+            Already have an account?{" "}
+            <Link href="/signin" className="underline">
+              Sign in!
+            </Link>
           </h2>
         </form>
       </div>
