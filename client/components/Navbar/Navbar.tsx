@@ -22,7 +22,7 @@ interface Props {
 const Links = [
   { text: "Home", path: "/home" },
   { text: "Community Events", path: "/communityevents" },
-  { text: "Weekly Tasks", path: "/weeklytasks" },
+  
   { text: "Donations", path: "/donations" },
 ];
 
