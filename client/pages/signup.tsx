@@ -2,7 +2,7 @@ import { useState, ChangeEvent, FormEvent } from "react";
 import Button from "../components/Button/Button";
 import { Input, Stack } from "@chakra-ui/react";
 import { useRouter } from "next/navigation";
-
+import Link from "next/link";
 interface FormData {
   name: string;
   email: string;
@@ -25,7 +25,7 @@ export default function signup() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form Data:", formData);
-    router.push("/home");
+    router.push("/survey");
   };
 
   return (
@@ -65,6 +65,9 @@ export default function signup() {
           <div className="flex flex-col sm:flex-row gap-5 sm:gap-20 mt-10">
             <Button text="Let's go!" colorClass="bg-[#024636]" />
           </div>
+          <h2 className="mt-2 text-white">
+            Already have an account? <Link href="/signin" className="underline">Sign in!</Link>
+          </h2>
         </form>
       </div>
     </div>

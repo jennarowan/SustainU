@@ -2,7 +2,7 @@ import { useState, ChangeEvent, FormEvent } from "react";
 import Button from "../components/Button/Button";
 import { Input, Stack } from "@chakra-ui/react";
 import { useRouter } from "next/navigation";
-
+import Link from "next/link";
 interface FormData {
   email: string;
   password: string;
@@ -55,6 +55,12 @@ export default function signin() {
           <div className="flex flex-col sm:flex-row gap-5 sm:gap-20 mt-10">
             <Button text="Let's go!" colorClass="bg-[#024636]" />
           </div>
+          <h2 className="mt-2 text-white">
+           Don't have an account?{" "}
+            <Link href="/signup" className="underline">
+              Sign up!
+            </Link>
+          </h2>
         </form>
       </div>
     </div>
